@@ -1,0 +1,74 @@
+.html {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.gallery {
+    height: 300px;
+    margin-left: 40%;
+}
+
+.thumbnail_images {
+    width: 150px;
+}
+
+.slides{
+    display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.next {
+  right: 20%;
+}
+.prev {
+  left: 20%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(89, 128, 10, 0.8);
+}
+
+demo:hover {
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dark-mode {
+  background-color: #101010;
+  color: white;
+}
+
+.okBtn {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(89, 128, 10, 0.8);
+}
+.okBtn:hover {
+    background-color: rgba(60, 108, 170, 0.8);
+}

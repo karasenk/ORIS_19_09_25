@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <script src="script.js"></script> 
+	<head> 
+		<title> заголовок </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+            <select>
+                <option>остаться</option>
+                <option onclick="redirect('index.html')">другая страничка</option>
+                <option onclick="redirect('http:\\www.google.com')">google</option>
+            </select>
+            <button id="switchTheme" onclick="switchTheme()"> Сменить тему </button>
+		</header>
+        <div>
+            <form name="myForm" method="post">
+            <label for="name">имя:</label><br>
+            <input type="text" id="name" name="name"><br>
+                <a class="okBtn" onclick="validateForm()"> ок </a>
+            </form>
+            <p id="alert"></p>
+        </div>
+	</body>
+</html>
